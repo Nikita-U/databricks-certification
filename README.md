@@ -47,8 +47,8 @@ Status:            On Track ✅
 - [x] Magic commands — %sql, %python, %md
 
 ### Week 2 — ETL & Advanced Topics
-- [ ] Delta Live Tables (DLT)
-- [ ] DLT Expectations — expect, expect_or_drop, expect_or_fail
+- [x] Delta Live Tables (DLT)
+- [x] DLT Expectations — expect, expect_or_drop, expect_or_fail
 - [ ] Auto Loader — cloudFiles format
 - [ ] MERGE statement — upserts
 - [ ] Change Data Capture (CDC)
