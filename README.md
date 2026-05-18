@@ -74,7 +74,7 @@ Status:            On Track ✅
 | Assessment | Date | Score | Status |
 |---|---|---|---|
 | Assessment 1 — Fundamentals | 2026-05-13 | 78% | ✅ Pass |
-| Assessment 2 — ETL & DLT |2026-05-18 | 93%| ⏭️ Pass|
+| Assessment 2 — ETL & DLT |2026-05-18 | 93%| ✅  Pass|
 | Assessment 3 — Full Mock | | | ⏭️ |
 | Mock Exam 1 | | | ⏭️ |
 | Mock Exam 2 | | | ⏭️ |
