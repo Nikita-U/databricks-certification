@@ -8,6 +8,7 @@
 ```
 Target Exam Date:  [ SET YOUR DATE HERE ]
 Current Score:     78% (Assessment 1)
+Current Score:     93% (Assessment 2)
 Exam Pass Mark:    70%
 Status:            On Track ✅
 ```
@@ -73,7 +74,7 @@ Status:            On Track ✅
 | Assessment | Date | Score | Status |
 |---|---|---|---|
 | Assessment 1 — Fundamentals | 2026-05-13 | 78% | ✅ Pass |
-| Assessment 2 — ETL & DLT | | | ⏭️ |
+| Assessment 2 — ETL & DLT |2026-05-18 | 93%| ⏭️ Pass|
 | Assessment 3 — Full Mock | | | ⏭️ |
 | Mock Exam 1 | | | ⏭️ |
 | Mock Exam 2 | | | ⏭️ |
@@ -188,7 +189,11 @@ Concepts: Medallion, Delta Lake, Streaming
 
 ### Project 2 — Delta Live Tables Pipeline
 ```
-Status:   ⏭️ Coming next
+Status:   ✅ Complete
+Tables:   bronze_finance
+          silver_finance
+          gold_finance
+Concepts: DLT, Expectations, DAG, Git integration
 ```
 
 ### Project 3 — Workflows & Jobs
@@ -248,5 +253,5 @@ Status:   ⏭️ Coming soon
 
 ---
 
-*Last updated: 2026-05-13*
-*Current score: 78% — would pass today!*
+*Last updated: 2026-05-18*
+*Current score: 93% — well above pass mark!*
