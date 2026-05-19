@@ -1,5 +1,5 @@
 # Databricks notebook source
-i# Task 1 — Check Spark version
+# Task 1 — Check Spark version
 print(spark.version)
 
 # Task 2 — Create your first DataFrame
@@ -168,11 +168,10 @@ display(
 # MAGIC SELECT * FROM bronze_transactions WHERE id = 11;
 # MAGIC
 # MAGIC -- Travel back to Version 0 (before David existed!)
-# MAGIC SELECT * FROM bronze_transactions VERSION AS OF 0;
+# MAGIC --SELECT * FROM bronze_transactions VERSION AS OF 0;
 # MAGIC
 # MAGIC -- Travel back to Version 1 (David added but not updated yet)
-# MAGIC SELECT * FROM bronze_transactions VERSION AS OF 1
-# MAGIC WHERE id = 11
+# MAGIC --SELECT * FROM bronze_transactions VERSION AS OF 1 WHERE id = 11
 # MAGIC
 # MAGIC
 
@@ -182,23 +181,16 @@ print("=== Version 2 (current) ===")
 display(spark.sql("SELECT * FROM bronze_transactions WHERE id = 11"))
 
 print("=== Version 0 (before David) ===")
-display(spark.sql("SELECT * FROM bronze_transactions VERSION AS OF 0"))
+#display(spark.sql("SELECT * FROM bronze_transactions VERSION AS OF 0"))
 
 print("=== Version 1 (David before update) ===")
-display(spark.sql("SELECT * FROM bronze_transactions VERSION AS OF 1 WHERE id = 11"))
+#display(spark.sql("SELECT * FROM bronze_transactions VERSION AS OF 1 WHERE id = 11"))
 
 # COMMAND ----------
 
 # MAGIC %sql 
 # MAGIC
 # MAGIC DESCRIBE detail bronze_transactions;
-
-# COMMAND ----------
-
-
-
-bOPTIMIZE bronze_transactions
-
 
 # COMMAND ----------
 
@@ -209,5 +201,4 @@ bOPTIMIZE bronze_transactions
 
 # MAGIC %sql
 # MAGIC VACUUM bronze_transactions RETAIN 168 HOURS DRY RUN;
-# MAGIC
-# MAGIC display(spark.sql("select * from bronze_transactions"))
+# MAGIC SELECT * FROM bronze_transactions;
