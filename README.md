@@ -75,7 +75,7 @@ Status:            On Track ✅
 |---|---|---|---|
 | Assessment 1 — Fundamentals | 2026-05-13 | 78% | ✅ Pass |
 | Assessment 2 — ETL & DLT |2026-05-18 | 93%| ✅  Pass|
-| Assessment 3 — Full Mock | | | ⏭️ |
+| Assessment 3 — MERGE, SCD & Jobs | 2026-05-19 | 94% | ✅ Pass |
 | Mock Exam 1 | | | ⏭️ |
 | Mock Exam 2 | | | ⏭️ |
 | Mock Exam 3 | | | ⏭️ |
