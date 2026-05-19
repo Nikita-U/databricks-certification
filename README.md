@@ -19,8 +19,8 @@ Status:            On Track ✅
 
 | Week | Days Studied | Hours | Status |
 |---|---|---|---|
-| Week 1 | 0/5 | 0/10 | ⏭️ |
-| Week 2 | 0/5 | 0/10 | ⏭️ |
+| Week 1 | 5/5 | 10/10 | ✅ |
+| Week 2 | 3/5 | 6/10 | 🔄 |
 | Week 3 | 0/5 | 0/10 | ⏭️ |
 | Week 4 | 0/5 | 0/10 | ⏭️ |
 
@@ -195,11 +195,18 @@ Tables:   bronze_finance
           gold_finance
 Concepts: DLT, Expectations, DAG, Git integration
 ```
+### Project 3 — MERGE & SCD Pipeline
+Status:   ✅ Complete
+Tables:   customers
+          customers_history
+Concepts: MERGE, SCD Type 1, SCD Type 2, CDC
 
-### Project 3 — Workflows & Jobs
-```
-Status:   ⏭️ Coming soon
-```
+### Project 4 — Automated Workflow Job
+Status:   ✅ Complete
+Tasks:    01_bronze_ingestion
+          02_silver_cleanup
+          03_gold_metrics
+Concepts: Jobs, DAG, Dependencies, Repair run, Schedule
 
 ---
 
@@ -242,7 +249,7 @@ Status:   ⏭️ Coming soon
 ---
 
 ## 🎯 Exam Day Checklist
-
+å
 - [ ] Exam booked on Webassessor
 - [ ] Quiet room ready
 - [ ] Stable internet confirmed
@@ -253,5 +260,5 @@ Status:   ⏭️ Coming soon
 
 ---
 
-*Last updated: 2026-05-18*
+*Last updated: 2026-05-19*
 *Current score: 93% — well above pass mark!*
