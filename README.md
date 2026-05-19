@@ -51,11 +51,11 @@ Status:            On Track ✅
 - [x] Delta Live Tables (DLT)
 - [x] DLT Expectations — expect, expect_or_drop, expect_or_fail
 - [ ] Auto Loader — cloudFiles format
-- [ ] MERGE statement — upserts
-- [ ] Change Data Capture (CDC)
-- [ ] SCD Type 1 and Type 2
-- [ ] Databricks Workflows & Jobs
-- [ ] Multi task jobs with dependencies
+- [x] MERGE statement — upserts
+- [x] Change Data Capture (CDC)
+- [x] SCD Type 1 and Type 2
+- [x] Databricks Workflows & Jobs
+- [x] Multi task jobs with dependencies
 - [ ] Error handling & bad records
 - [ ] Performance tuning — caching, broadcast joins
 
