@@ -196,18 +196,20 @@ Tables:   bronze_finance
 Concepts: DLT, Expectations, DAG, Git integration
 ```
 ### Project 3 — MERGE & SCD Pipeline
+```
 Status:   ✅ Complete
 Tables:   customers
           customers_history
 Concepts: MERGE, SCD Type 1, SCD Type 2, CDC
-
+```
 ### Project 4 — Automated Workflow Job
+```
 Status:   ✅ Complete
 Tasks:    01_bronze_ingestion
           02_silver_cleanup
           03_gold_metrics
 Concepts: Jobs, DAG, Dependencies, Repair run, Schedule
-
+```
 ---
 
 ## ⚠️ Weak Areas to Review
