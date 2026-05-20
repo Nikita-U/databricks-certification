@@ -55,17 +55,17 @@ Status:            On Track ✅
 - [x] SCD Type 1 and Type 2
 - [x] Databricks Workflows & Jobs
 - [x] Multi task jobs with dependencies
-- [ ] Auto Loader — cloudFiles format
-- [ ] COPY INTO command
+- [x] Auto Loader — cloudFiles format
+- [x] COPY INTO command
 - [ ] Error handling & bad records
-- [ ] Performance tuning — caching, broadcast joins
-- [ ] Data Skew — AQE, salt key
+- [x] Performance tuning — caching, broadcast joins
+- [x] Data Skew — AQE, salt key
 - [ ] DABs & CI/CD basics
 - [ ] Lakeflow Connect overview
 - [ ] Liquid Clustering
-- [ ] Column masking & Row level security
-- [ ] GRANT / REVOKE permissions
-- [ ] Spark UI interpretation
+- [x] Column masking & Row level security
+- [x] GRANT / REVOKE permissions
+- [] Spark UI interpretation
 - [ ] Cluster types — Job, All-purpose, Serverless
 - [ ] JDBC/ODBC basics
 
