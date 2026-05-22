@@ -60,14 +60,14 @@ Status:            On Track ✅
 - [ ] Error handling & bad records
 - [x] Performance tuning — caching, broadcast joins
 - [x] Data Skew — AQE, salt key
-- [ ] DABs & CI/CD basics
-- [ ] Lakeflow Connect overview
-- [ ] Liquid Clustering
+- [x] DABs & CI/CD basics
+- [x] Lakeflow Connect overview
+- [x] Liquid Clustering
 - [x] Column masking & Row level security
 - [x] GRANT / REVOKE permissions
-- [] Spark UI interpretation
-- [ ] Cluster types — Job, All-purpose, Serverless
-- [ ] JDBC/ODBC basics
+- [x] Spark UI interpretation
+- [x] Cluster types — Job, All-purpose, Serverless
+- [x] JDBC/ODBC basics
 
 ### Week 3 — Exam Prep
 - [ ] Mock Exam 1 (target 70%)
